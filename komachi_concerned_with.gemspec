@@ -7,9 +7,9 @@ require "komachi_concerned_with/version"
 Gem::Specification.new do |s|
   s.name        = "komachi_concerned_with"
   s.version     = KomachiConcernedWith::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
+  s.authors     = ["Takumi MIURA"]
+  s.email       = ["mitaku1104@gmail.com"]
+  s.homepage    = "https://github.com/mitaku/komachi_concerned_with"
   s.summary     = "TODO: Summary of KomachiConcernedWith."
   s.description = "TODO: Description of KomachiConcernedWith."
 
