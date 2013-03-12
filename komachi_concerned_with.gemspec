@@ -10,12 +10,12 @@ Gem::Specification.new do |s|
   s.authors     = ["Takumi MIURA"]
   s.email       = ["mitaku1104@gmail.com"]
   s.homepage    = "https://github.com/mitaku/komachi_concerned_with"
-  s.summary     = "TODO: Summary of KomachiConcernedWith."
-  s.description = "TODO: Description of KomachiConcernedWith."
+  s.summary     = "concerned with modules"
+  s.description = "KomachiConcernedWith is module include helper"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.add_dependency "rails", "~> 3.2.12"
+  s.add_dependency "rails", "~> 3.2"
   # s.add_dependency "jquery-rails"
 
   s.add_development_dependency "sqlite3"
