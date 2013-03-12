@@ -12,15 +12,6 @@ module KomachiConcernedWith
           include concern.constantize
         end
       end
-
-      def concerned_with_default
-        concerned_with concerned_with_default_list
-      end
-
-      private
-      def concerned_with_default_list
-        [:accessors, :validations, :associations]
-      end
     end
   end
 end
