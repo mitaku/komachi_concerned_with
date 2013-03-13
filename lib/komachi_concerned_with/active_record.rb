@@ -7,9 +7,9 @@ module KomachiConcernedWith
 
     module ClassMethods
       def concerned_with(*concerns)
-        concerns.each do |concern|
+        concerns.map(&:to_s).each do |concern|
           require_dependency "#{name.underscore}/#{concern}"
-          include concern.constantize
+          include concern.classify.constantize
         end
       end
     end
